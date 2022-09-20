@@ -8,6 +8,7 @@ const ExpensesFilter = (props) => {
     props.onChangeYear(selectedYear);
   };
   const defaultYear = props.selected;
+  console.log(defaultYear);
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
